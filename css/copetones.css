@@ -128,11 +128,11 @@ h1 span {
     text-align: left; }
 
 .bg1 {
-  background: url("../img/bg1.jpg") fixed no-repeat;
+  background: url("../img/bg1.jpg") fixed;
   background-size: cover; }
 
 .bg2 {
-  background: url("../img/bg2.jpg") fixed no-repeat;
+  background: url("../img/bg2.jpg") fixed;
   background-size: cover; }
 
 .verde h2, .verde h3, .verde p {
