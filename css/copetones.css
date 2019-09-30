@@ -128,11 +128,11 @@ h1 span {
     text-align: left; }
 
 .bg1 {
-  background: url("../img/bg1.jpg") fixed;
+  background: url("../img/bg1.jpg") no-repeat fixed;
   background-size: cover; }
 
 .bg2 {
-  background: url("../img/bg2.jpg") fixed;
+  background: url("../img/bg2.jpg") no-repeat fixed;
   background-size: cover; }
 
 .verde h2, .verde h3, .verde p {
@@ -170,7 +170,7 @@ h1 span {
     height: 70px; }
 
   .container {
-    padding: 10px; }
+    padding: 30px; }
     .container h2 {
       font-size: 40px; }
     .container h3 {
@@ -178,6 +178,8 @@ h1 span {
 
   .wrap h2 {
     font-size: 32px !important; }
+  .wrap p {
+    font-size: 18px; }
 
   .banner {
     height: 600px;
@@ -202,10 +204,10 @@ h1 span {
     grid-gap: 0; }
 
   .bg1 {
-    background: url("../img/bg1.jpg") fixed no-repeat; }
+    background: url("../img/bg1.jpg") fixed repeat; }
 
   .bg2 {
-    background: url("../img/bg2.jpg") fixed no-repeat; }
+    background: url("../img/bg2.jpg") fixed repeat; }
 
   .iconoMenu {
     position: absolute;

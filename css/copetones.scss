@@ -147,11 +147,11 @@ h1 span{
     }
 }
 .bg1{
-    background:url('../img/bg1.jpg') fixed ;
+    background:url('../img/bg1.jpg') no-repeat fixed ;
     background-size: cover;
 }
 .bg2{
-    background:url('../img/bg2.jpg') fixed ;
+    background:url('../img/bg2.jpg') no-repeat fixed ;
     background-size: cover;
 }
 .verde{
@@ -197,7 +197,7 @@ h1 span{
         height: 70px;
     }
     .container{
-        padding: 10px;
+        padding: 30px;
         h2{
             font-size: 40px;
         }
@@ -208,6 +208,9 @@ h1 span{
     .wrap{
         h2{
             font-size: 32px !important;
+        }
+        p{
+            font-size: 18px;
         }
     }
     .banner{
@@ -236,11 +239,11 @@ h1 span{
         grid-gap: 0;    
     }
     .bg1{
-        background:url('../img/bg1.jpg') fixed  no-repeat;
+        background:url('../img/bg1.jpg') fixed  repeat;
        
     }
     .bg2{
-        background:url('../img/bg2.jpg') fixed  no-repeat;
+        background:url('../img/bg2.jpg') fixed  repeat;
        
     }
 
